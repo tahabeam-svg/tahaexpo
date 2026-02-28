@@ -1,0 +1,138 @@
+Create a premium, luxury event venue website called "Dunes Gate".
+
+Tech Stack:
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion (for animations)
+- Three.js (for 3D venue representation)
+- Responsive design (mobile-first)
+- Clean folder structure
+- Modern SEO setup
+
+Brand Identity:
+Dunes Gate is a premium event venue in Riyadh, Saudi Arabia founded in 2025.
+The brand is royal, prestigious, elegant, secure, and community-focused.
+Design must feel luxurious, minimal but powerful, with gold accents and desert inspiration.
+
+Color Palette:
+- Gold (#C6A75E)
+- Dark Sand (#8A6B3F)
+- Deep Brown (#3A2E1F)
+- Off White (#F5F1E8)
+- Charcoal (#1A1A1A)
+
+Typography:
+- Elegant serif for headings
+- Clean modern sans-serif for body
+
+---------------------------------------------------
+STRUCTURE
+---------------------------------------------------
+
+1) HOME PAGE
+- Full screen hero section using provided desert gate image.
+- Apply depth effect on load (parallax + subtle zoom).
+- Overlay gradient (dark to transparent).
+- Tagline: "A Premier Destination for Collectors, Conferences & Celebrations"
+- Smooth fade-in animation.
+- Navigation visible at top:
+  Home | About Us | The Venue | Showcase | Contact
+- Contact section at bottom.
+
+2) ABOUT PAGE
+Sections:
+- Vision & Mission
+- Chairman (top priority section)
+- Board Member & GM
+- Management Team
+
+Display:
+- Name
+- Title
+- Short professional paragraph
+- Elegant card layout
+- Chairman highlighted in larger card.
+
+Content must reflect the official company profile text.
+
+3) THE VENUE PAGE
+Two sections:
+A) Active Venue
+B) Future Venue Placeholder (Coming Soon)
+
+Include:
+- 3D interactive model placeholder (Three.js scene)
+- Venue statistics:
+  15,000 sqm total
+  3,550 sqm main hall
+  620 sqm VIP
+  210 sqm registration
+  3 meeting rooms
+  Parking 450 cars
+
+- Event categories grid:
+  Collectors
+  Conferences
+  Exhibitions
+  Cultural Events
+  Weddings
+  Hybrid Events
+
+- "Contact Us About This Venue" button linking to Contact page.
+
+4) SHOWCASE PAGE
+- Elegant image grid
+- Hover animation
+- Placeholder events:
+  Conferences
+  Collectors Exhibition
+  Cultural Gathering
+  Wedding Event
+
+5) CONTACT PAGE
+- Professional contact form:
+  Name
+  Email
+  Phone
+  Event Type
+  Message
+
+- Email: info@dunesgate.com
+- Social Links:
+  WhatsApp
+  Instagram
+  Email
+- Elegant layout
+- Contact section must also appear at bottom of all pages.
+
+---------------------------------------------------
+ANIMATIONS
+---------------------------------------------------
+- Page transitions (fade + slide)
+- Smooth scroll
+- Hero parallax
+- Card hover elevation
+
+---------------------------------------------------
+UX REQUIREMENTS
+---------------------------------------------------
+- Fully responsive
+- Sticky transparent navbar
+- Navbar turns solid on scroll
+- Gold hover effects
+- Elegant microinteractions
+- Accessibility compliant
+
+---------------------------------------------------
+SEO
+---------------------------------------------------
+- Metadata for Riyadh premium event venue
+- Proper headings structure
+- Open Graph setup
+
+---------------------------------------------------
+Deliver:
+- Complete working code
+- Organized components
+- Ready for deployment

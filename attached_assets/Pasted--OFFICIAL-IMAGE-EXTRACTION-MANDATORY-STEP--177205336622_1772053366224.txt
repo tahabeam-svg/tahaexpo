@@ -1,0 +1,81 @@
+---------------------------------------------------
+OFFICIAL IMAGE EXTRACTION – MANDATORY STEP
+---------------------------------------------------
+
+The file "Dunes Gate Event Venue Brochure.pptx" is already uploaded in the project.
+
+Before building the UI:
+
+STEP 1:
+Programmatically extract ALL images from the PowerPoint file.
+
+Technical Instructions:
+- PowerPoint (.pptx) files are ZIP archives.
+- Extract the archive.
+- Navigate to: ppt/media/
+- Copy all images found there.
+- Save them into: /public/assets/official/
+- Rename them clearly based on context after reviewing slides:
+  chairman.jpg
+  board-member-youssef.jpg
+  board-member-mohannad.jpg
+  main-hall.jpg
+  vip-hall.jpg
+  registration-hangar.jpg
+  aerial-view.jpg
+  floorplan-main.jpg
+  floorplan-vip.jpg
+  outdoor-landscape.jpg
+
+If needed:
+- Create a Node.js script to unzip and extract media files.
+- Automatically optimize and convert to web-friendly format (jpg/webp).
+- Ensure images load correctly in Next.js public folder.
+
+---------------------------------------------------
+ABSOLUTE MEDIA POLICY
+---------------------------------------------------
+
+Do NOT:
+- Generate AI images
+- Use placeholder images
+- Use stock photography
+- Create fake 3D renders
+- Simulate venue images
+
+If an official image does not exist:
+- Leave section empty
+- Display text only
+- DO NOT fabricate visuals
+
+---------------------------------------------------
+TEAM PAGE IMAGE RULES
+---------------------------------------------------
+
+- Chairman image must come from official PPT extraction.
+- No retouching.
+- No AI upscaling.
+- No background replacement.
+- Display clean professional layout.
+
+---------------------------------------------------
+VENUE PAGE IMAGE RULES
+---------------------------------------------------
+
+- Use real hall images from PPT.
+- Use real floor plans from PPT.
+- Use real aerial image from PPT.
+- If 3D is required, create neutral wireframe geometry only (no fake realism).
+
+---------------------------------------------------
+CRITICAL VALIDATION STEP
+---------------------------------------------------
+
+After extracting images:
+Console log all extracted filenames.
+Verify images exist inside:
+public/assets/official/
+
+If extraction fails:
+Stop and display error.
+Do not proceed with fake images.
